@@ -127,6 +127,12 @@ class App extends Component {
             </main>
           </div>
         </div>
+
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+          <div class="container text-center text-light">
+            <small>Copyright &copy; <a href="https://github.com/zubayrrr/block-finder" target="_blank">Zubayr</a> {new Date().getFullYear()}</small>
+          </div>
+        </footer>
       </div>
     );
   }
